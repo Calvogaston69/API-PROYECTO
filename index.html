@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+  <!--Aqui va el navbar-->
+  <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="data:image/png;base64,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" alt="Bulma: a modern CSS framework based on Flexbox" width="90" height="28">
+      </a>
+      <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="./">
+          Inicio
+        </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Aqui va el navbar-->
+
+  <!--project title-->
+  <section class="container">
+  
+  <h1>Estadisticas de Monstruos</h1>
+
+</section>
+  <!--project title-->
+
+  <!--Find input-->
+  <section class="container">
+
+  <input id="monstruoName" class="input is-medium" type="text" placeholder="Buscar">
+  <button onclick="creaGrafica();" class="button is-black">Mostrar Estadisticas</button>
+ 
+</section>
+  <!--Find input-->
+  
+
+  <!--Aqui va el chartjs-->
+  <div>
+    <canvas id="myChart"></canvas>
+  </div>
+  <!--Aqui va el chartjs-->
+
+  <!--javascript imports-->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <script src="./index.js"></script>
+  <!--javascript imports-->
+  <subtitle> ESTA GRAFICA MUESTRA LAS ESTADISTICAS DE DIFERENTES TIPOS DE MONSTRUOS</subtitle>
+</body>
+</html>
